@@ -1,0 +1,118 @@
+body{
+    font-family: Roboto;
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    float: left;
+}
+
+span{
+    color: rgb(8, 119, 79);
+    cursor: pointer;
+}
+
+h6{
+    font-weight: 400;
+    color: #34495e;
+    font-size: 12px;
+    margin: 0;
+}
+
+h1{
+    margin: 10px 0px;
+}
+
+#container{
+    max-width: 450px;
+    margin: 120px auto;
+    height: 500px;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.28);
+}
+
+input[type="text"], input[type="password"]{
+    width: 60%;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    outline: none;
+    background: none;
+    color:white;
+    text-indent: 10px;
+    border-bottom: 1px solid white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #353333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #353333;
+   opacity:  0.8;
+}
+::-moz-place#353333 { /* Mozilla Firefox 19+ */
+   color: #353333;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #353333;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #353333;
+}
+
+input:focus {
+    /*box-shadow: 0 0 3pt 2pt #2ecc71;*/
+    /*box-shadow: 0 0 3pt 2pt #2980b9;*/
+    box-shadow: 0 0 3pt 2pt #00E6FF;
+}
+
+button{
+    height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    border: 0;
+    width: 60%;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.facebookLogin{
+    background-color: #2980b9;
+}
+
+.githubLogin{
+    background-color: #7f8c8d;
+}
+
+.normalLogin{
+    background-color: #2ecc71;
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left!important;
+}
+
+#formContainer{
+    padding-top: 50px;
+}
+
+form{
+    margin-top: 50px;
+}
